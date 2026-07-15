@@ -1,0 +1,17 @@
+value = input("enter the sign value[+,-,*,%] :")
+num= float(input("enter the 1st value:"))
+num1= float(input("enter the 1st value:"))
+if value =="+" :
+    result= num + num1
+    print(f"the sum of the number is: {result}")
+elif value =="-":
+    result = num - num1
+    print(f"the sub  value is: {result}")
+elif value =="*":
+    result = num * num1
+    print(f"the sub  value is: {result}")
+elif value =="%":
+    result = num % num1
+    print(f"the sub  value is: {result}")
+else:
+    print("enter the value correctly")    
