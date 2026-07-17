@@ -1,0 +1,24 @@
+foods = []
+prices=[]
+total=0
+while True:
+    food = input("enter your food items (q to quit):")
+    if food.lower()=="q":
+        break
+    if food ==" ":
+        print("no space are allowed")
+    else:
+        price=float(input("enter the price of the:${food}")) 
+        foods.append(food)
+        prices.append(price)   
+
+print("=======your cart========")
+for food in foods:
+
+   print(food,"=",price)
+
+for price in   prices:
+    total+=price
+
+print(f"the total cost is :${total}")
+
