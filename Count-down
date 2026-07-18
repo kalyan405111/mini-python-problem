@@ -1,0 +1,9 @@
+import time
+my_time=int(input("enter your time :"))
+           sec=my_time%60
+            min=int(my_time/60)%60
+            hour= int(my_time/3600)
+            print(f"{hour:02}:{min:02}:{sec:02}",end="\r ")
+            time.sleep(1)
+           my_time-=1     
+#print("time up bro")
